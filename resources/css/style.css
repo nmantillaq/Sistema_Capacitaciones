@@ -12,3 +12,9 @@
 .card{
     margin-bottom: 5px;   
 }
+.e{
+    margin-right: 5px !important;
+}
+.c{
+    cursor: pointer;
+}
