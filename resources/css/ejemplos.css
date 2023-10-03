@@ -1,30 +1,30 @@
-/*
-*{
+
+/**{
     background-color: rgb(255, 221, 0);
 }*/
 
 h5{
     color: red;
 }
-/*
+
 #divXYZ{
-    background-color: aqua;
-}*/
+    background-color: rgb(170, 255, 0);
+}
 
 .fondo-color{
-    background-color: rgb(255,99,71);
+    background-color: rgb(255,99,71) !important;
     background-color: #13b15a;
 }
 
 div h5.t{
-    margin-top: 120px;
-    margin-left: 50px;
+    margin-top: 5px;
+    margin-left: 150px;
 }
 div h5.t:hover{
     color: yellow;
+    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 50px;
-    /*border: 5px solid green;*/
     padding: 15px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
