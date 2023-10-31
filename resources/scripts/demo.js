@@ -31,7 +31,14 @@ let arreglo_v2 = [
     }
 ]
 
+let funcionAnonima = function(param1, param2, paramx){
 
+    return param1 + param2 + paramx;
+
+}
+
+let funcionAnonima2 = ()=>{};
+//Node JS
 
 
 function llevarAlPrograma(valor) { 

@@ -1,3 +1,37 @@
+$(document).ready(()=>{
+    mostrarProgramas();
+});
+
+$(".bt01").on("click", function (){
+
+    window.location = "./modulos/programa.html";
+    
+});
+
+function mostrarProgramas(){
+    $("#ID_primeraFila").empty();
+
+    for(let i=0; i< Lista_Programas.length; i++){
+        $("#ID_primeraFila").append(
+            '<div class="card">'+
+                '<div class="row p-2">'+
+                    '<div class="col-4">'+
+                    '<img src="'+Lista_Programas[i].uri_imagen+'" class="card-img-top">'+
+                    '</div>'+
+                    '<div class="col-8">'+
+                        '<h5 class="card-title fondo-color">'+Lista_Programas[i].titulo+'</h5>'+
+                        '<p class="card-text">'+Lista_Programas[i].descripcion+'</p>'+
+                        '<div>'+
+                            '<a class="'+Lista_Programas[i].codigo+' detalle btn btn-sm btn-outline-success">Ver detalle</a>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'+
+            '</div>' 
+        );
+
+    }
+
+}
 
 
 let Lista_Programas = [
