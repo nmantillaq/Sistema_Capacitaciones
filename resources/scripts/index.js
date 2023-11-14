@@ -31,25 +31,10 @@ function mostrarProgramas(){
 
 function enviar(){
     $(".dp").on("click", function (){
-
         let codigo_elegido = $(this).attr("id");  //$(this).attr("class").split(" ")[0];
-
         console.log( codigo_elegido );
         console.log("Llegó hasta acá");
-
         window.location = "./modulos/programa.html?CODP="+ btoa(codigo_elegido);
         
     });
 }
-
-/*
-"Hola Como estas"
-
-["Hola", "Como", "estas"]
-  0        1        2  <= Indices
-*/
-
-
-
-
-//$("#ID_primeraFila").empty();

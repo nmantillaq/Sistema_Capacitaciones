@@ -12,5 +12,5 @@ function obtenerParametro(){
 function generarInformacion(p){
     $("#id_titulo").text(p.titulo);
     $("#id_descripcion").text(p.descripcion);
-
+    
 }
