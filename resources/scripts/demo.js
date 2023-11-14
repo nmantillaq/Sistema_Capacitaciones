@@ -5,6 +5,7 @@ const variableAux_v3 = "Mostrando el valor enviado: ";
 //Valores que corresponden al sistema o aplicación
     //> Nombre del sistema
     //> Nombre de los módulos
+    
 
 let objeto = {
     nombre:"Certus",
